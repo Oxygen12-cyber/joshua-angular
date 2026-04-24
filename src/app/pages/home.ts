@@ -7,10 +7,10 @@ import { RouterLink } from '@angular/router';
   template: `
     <div class="min-h-[80vh] flex items-center justify-center py-16 px-6 bg-white text-gray-900 font-sans">
       <div class="max-w-3xl flex flex-col items-start gap-6">
-        <span class="text-blue-600 font-semibold tracking-wider uppercase text-sm">Design & Code</span>
+        <span class="text-blue-600 font-semibold tracking-wider uppercase text-sm">Portfolio</span>
         <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-gray-900 leading-tight">
           Hi, I'm Joshua. <br/>
-          <span class="text-gray-400">Software Developer.</span>
+          <span class="text-gray-400">Software Developer <span class="text-8xl text-orange-200">.</span></span>
         </h1>
         <p class="text-xl text-gray-600 leading-relaxed max-w-2xl mt-4">
           I build clean, accessible, and fast web applications. Focusing on intuitive designs and scalable code.
