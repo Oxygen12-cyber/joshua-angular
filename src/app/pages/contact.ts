@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
         If you have a project that needs some creative touch, I'd love to hear about it.
       </p>
       <a href="mailto:joshua@example.com" class="px-10 py-5 bg-gray-900 text-white font-medium text-lg hover:bg-gray-800 transition-colors">
-        Say Hello
+        Say HI
       </a>
       
       <div class="mt-24 flex gap-8 text-sm font-semibold tracking-wider uppercase text-gray-500">
