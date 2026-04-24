@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
+import { NgClass } from '@angular/common';
 
 @Component({
   selector: 'app-projects',
+  imports: [NgClass],
   template: `
     <div class="py-16 px-6 bg-white text-gray-900 min-h-screen font-sans">
       <div class="max-w-5xl mx-auto">
@@ -10,7 +12,15 @@ import { Component } from '@angular/core';
         
         <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
           @for (project of projects; track project.id) {
-            <div class="border border-gray-200 p-8 hover:border-gray-900 transition-colors duration-300 flex flex-col group">
+            <div
+              class="border border-gray-200 p-8 transition-all duration-300 flex flex-col group hover:shadow-sm"
+              [ngClass]="{
+                'hover:border-blue-500': project.id === 1,
+                'hover:border-emerald-500': project.id === 2,
+                'hover:border-violet-500': project.id === 3,
+                'hover:border-rose-500': project.id === 4
+              }"
+            >
               <div class="mb-4">
                 <h3 class="text-2xl font-bold mb-2 group-hover:text-blue-600 transition-colors">{{ project.title }}</h3>
                 <p class="text-gray-600 leading-relaxed">{{ project.description }}</p>
