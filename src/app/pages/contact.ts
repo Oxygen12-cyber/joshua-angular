@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
         I am currently available for freelance projects or full-time opportunities. 
         If you have a project that needs some creative touch, I'd love to hear about it.
       </p>
-      <a href="" class="px-10 py-5 bg-gray-900 text-white font-medium text-lg hover:bg-gray-800 transition-colors">
+      <a href="#" class="px-10 py-5 bg-gray-900 text-white font-medium text-lg hover:bg-gray-800 transition-colors">
         Contact me here
       </a>
       

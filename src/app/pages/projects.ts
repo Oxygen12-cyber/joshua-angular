@@ -29,9 +29,9 @@ import { Component } from '@angular/core';
 })
 export class ProjectsComponent {
   projects = [
-    { id: 1, title: 'Citizen Safety Platform', description: 'Enterprise data visualization suite built with high-performance metrics aggregation and reporting capabilities.', techs: ['Cordova', 'CSS', 'HTML'] },
-    { id: 2, title: 'Cordova CV app', description: 'A seamless shopping experience featuring real-time inventory synchronization and a blazing-fast checkout flow.', techs: ['Android', 'CSS', 'JavaScript'] },
-    { id: 3, title: '', description: 'Collaborative task planner with real-time updates and interactive Kanban boards for remote teams.', techs: ['Angular', 'RxJS', 'Firebase'] },
-    { id: 4, title: 'Vertex Design System', description: 'A fully accessible UI component library built from scratch to streamline company-wide development.', techs: ['Angular', 'Storybook', 'Sass'] }
+    { id: 1, title: 'Citizen Safety Platform', description: 'A platform built using cordova to alert users nd citizens about Accidents and emergencies in their areas', techs: ['Cordova', 'CSS', 'HTML'] },
+    { id: 2, title: 'Cordova CV app', description: 'A simple single page CV application built with Cordova to display my Cv.', techs: ['Android', 'CSS', 'JavaScript'] },
+    { id: 3, title: 'Improved CV app', description: 'A modern, responsive CV application featuring a dynamic dashboard, project showcase, and contact management system with routing included.', techs: ['Cordova','JavaScript'] },
+    { id: 4, title: 'Portfolio app', description: 'A portfolio app built with Angular to showcase my work.', techs: ['Angular'] }
   ];
 }
